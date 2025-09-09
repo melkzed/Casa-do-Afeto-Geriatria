@@ -1313,8 +1313,8 @@ footer {
 
 .whatsapp-float {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
   width: 60px;
   height: 60px;
   background: #25D366;
@@ -1323,10 +1323,13 @@ footer {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  z-index: 999;
+  z-index: 9999;
   transition: all 0.3s;
   animation: pulse 3s infinite;
-  display: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  /* Remova o display: none */
 }
 
 .whatsapp-float:hover {
