@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>A Casa do Afeto - Cuidado Geriátrico com Amor</title>
+    <link rel="icon" href="src/imagens/ag" type="image/x-icon">
+    <link rel="shortcut icon" href="src/imagens/navegador_icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75,100..900;1,75,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo"><img src="src/imagens/icone-logo.png" alt="ícone_logo"></a>
+            <a href="index.html" class="logo">Geriatria <span> a Casa do Afeto</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#reviews">Avaliações</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="https://wa.me/5581971015217?text=Olá,%20gostaria%20de%20agendar%20uma%20visita%20na%20Geriatria%20a%20Casa%20do%20Afeto"
+                            class="btn-contato" target="_blank"><i class="fab fa-whatsapp"></i> Agende Uma Visita</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero" id="home" style="background: linear-gradient(rgba(0, 0, 0, 0.5) 96%, rgba(255, 255, 255, 0.925) 100%), url('src/imagens/wallpaper4.png'); 
+         background-size: cover; 
+         background-position: center;">
+        <div class="container hero-content">
+            <h1>EXCELÊNCIA EM CUIDADO E QUALIDADE DE VIDA</h1>
+            <p>Oferecemos atendimento especializado para idosas, promovendo qualidade de vida e bem-estar em um ambiente
+                acolhedor e familiar.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5581971015217?text=Olá,%20gostaria%20de%20agendar%20uma%20visita%20na%20Geriatria%20a%20Casa%20do%20Afeto"
+                    class="btn-contato" target="_blank">Agende Uma Visita</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="section-title">
+            <h2><span>Sobre</span> Nós</h2>
+            <p>Conheça a Casa do Afeto e nossa missão de cuidar com amor e profissionalismo.</p>
+        </div>
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Somos uma Instituição de Longa Permanência para Idosas (ILPI) em Jaboatão dos Guararapes,
+                        fundada em 2025. Nossa missão é oferecer um lar acolhedor, seguro e afetuoso, onde cada idosa é
+                        respeitada em sua individualidade e cuidada com dignidade. <br> <br></p>
+                    <p class="about-description"></p>
+                    Contamos com quartos confortáveis, equipe qualificada e uma rotina leve com alimentação
+                    balanceada, atividades, passeios e convivência saudável. Nosso compromisso é garantir qualidade
+                    de vida, segurança e afeto, fazendo cada idosa se sentir parte de uma grande família.
+                    </p>
+                    <a href="#contact" class="btn">Fale Conosco</a>
+                </div>
+                <div class="about-media">
+                    <div class="video-container">
+                        <video controls playsinline preload="metadata"
+                            style=" border-radius: 10px; display: block; margin: 0 auto; max-width: 300px;"
+                            poster="src/imagens/wallpaper_dvideo.jpg">
+                            <source src="src/videos/video_narração.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeria</h2>
+                <p>Conheça nosso espaço e o dia a dia na Casa do Afeto</p>
+            </div>
+            <div class="gallery-carousel-container">
+                <div class="main-carousel">
+                    <div class="carousel-inner">
+                    </div>
+                    <button class="carousel-control prev" aria-label="Previous image">&#10094;</button>
+                    <button class="carousel-control next" aria-label="Next image">&#10095;</button>
+                </div>
+
+                <div class="thumbnails-wrapper">
+                    <div class="thumbnails-container"></div>
+                    <div class="pagination-dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2><span>Nossos</span> Serviços</h2>
+                <p>Oferecemos cuidados completos e personalizados para atender às necessidades específicas de cada idoso
+                </p>
+            </div>
+
+            <div class="services-carousel-container">
+                <div class="services-carousel">
+                    <div class="services-carousel-inner">
+                    </div>
+                    <button class="services-carousel-control prev" aria-label="Serviço anterior">&#10094;</button>
+                    <button class="services-carousel-control next" aria-label="Próximo serviço">&#10095;</button>
+                </div>
+                <div class="services-pagination-dots"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2><span>Nossos</span> Clientes</h2>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <p>"A Casa do Afeto é um verdadeiro lar para minha mãe. O cuidado, a paciência e o carinho da equipe
+                        fazem toda a diferença. Sinto que ela está em um ambiente seguro e cheio de amor."
+                    </p>
+                    <img src="src/imagens/pic-1.png" alt="Jonas da Silva" class="reviews-img">
+                    <h3>Jonas da Silva</h3>
+                    <div class="star">
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20"
+                            src="https://img.icons8.com/ios-filled/20/ff8ba8/star-half-empty.png"
+                            alt="star-half-empty" />
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <p>"Minha avó se adaptou muito rápido e hoje vive rodeada de novas amigas. O ambiente é acolhedor, e
+                        as profissionais são atenciosas em cada detalhe. Recomendo de coração!" <br> <br>
+                    </p>
+                    <img src="src/imagens/pic-5.png" alt="Maria Eduarda" class="reviews-img">
+                    <h3>Maria Eduarda</h3>
+                    <div class="star">
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <p>"Foi a melhor escolha que fizemos para minha tia. Além dos cuidados médicos, percebo que ela
+                        recebe afeto e atenção diariamente. Aqui, a qualidade de vida é prioridade." <br> <br>
+                    </p>
+                    <img src="src/imagens/pic-4.png" alt="Rodolfo Santos" class="reviews-img">
+                    <h3>Rodolfo Santos</h3>
+                    <div class="star">
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/ff8ba8/star--v1.png"
+                            alt="star--v1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contato</h2>
+            </div>
+            <div class="contact-cta-box">
+                <div class="cta-content">
+                    <h3>Para Mais Informações</h3>
+                    <p> Estamos à disposição para tirar suas dúvidas</p>
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/5581971015217/?text=Olá,%20gostaria%20de%20saber%20mais%20informações%20da%20Geriatria%20a%20Casa%20do%20Afeto"
+                            class="cta-btn whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://www.instagram.com/casadoafetogeriatria/" class="cta-btn instagram"
+                            target="_blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img width="40" height="40"
+                                src="https://img.icons8.com/fluency-systems-regular/40/fffffff/marker.png"
+                                alt="Ícone de localização">
+                        </div>
+                        <div class="info-text">
+                            <h4>Endereço</h4>
+                            <p>Rua Coronel Waldemar Basgal, 399 - Piedade<br>Jaboatão dos Guararapes - PE, 54400-170</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img width="30" height="30" src="https://img.icons8.com/ios/30/phone-disconnected.png"
+                                alt="phone-disconnected" />
+                        </div>
+                        <div class="info-text">
+                            <h4>Telefone</h4>
+                            <p>(81) 97101-5217</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img width="30" height="30" src="https://img.icons8.com/ios/30/new-post--v1.png"
+                                alt="new-post--v1" />
+                        </div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p><a
+                                    href="mailto:casadoafetogeriatria@gmail.com?subject=Solicitação%20de%20Informações&body=Olá,%20gostaria%20de%20saber%20mais%20sobre">casadoafetogeriatria@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.3937932332624!2d-34.918548699999995!3d-8.163020999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aae1c7e9c2a781%3A0xd144377aa27e41da!2sRua%20Coronel%20Waldemar%20Basgal%2C%20399%20-%20Piedade%2C%20Jaboat%C3%A3o%20dos%20Guararapes%20-%20PE%2C%2054400-170!5e0!3m2!1spt-BR!2sbr!4v1757382967721!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col footer-center">
+                    <h3>A Casa do Afeto</h3>
+                    <p>Oferecemos cuidado geriátrico especializado com amor, respeito e dignidade, promovendo qualidade
+                        de vida e bem-estar para idosas.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/casadoafetogeriatria/" target="_blank">
+                            <img width="25" height="25" src="https://img.icons8.com/ios/25/instagram-new--v1.png"
+                                alt="instagram-new--v1" /></a>
+                        <a href="https://wa.me/5581971015217/?text=Olá,%20gostaria%20de%20saber%20mais%20informações%20da%20Geriatria%20a%20Casa%20do%20Afeto"
+                            target="_blank">
+                            <img width="25" height="25" src="https://img.icons8.com/ios/25/whatsapp.png"
+                                alt="whatsapp" /></a>
+                    </div>
+                </div>
+                <div class="footer-col footer-center">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#services">Nossos Serviços</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#reviews">Avaliações</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 A Casa do Afeto. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5581971015217?text=Olá,%20gostaria%20de%20agendar%20uma%20visita%20na%20Geriatria%20a%20Casa%20do%20Afeto"
+        class="whatsapp-float" target="_blank" aria-label="Entrar em contato via WhatsApp">
+        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="whatsapp" />
+    </a>
+
+</body>
+
+</html>
